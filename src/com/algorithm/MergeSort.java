@@ -3,7 +3,9 @@ package com.algorithm;
 import java.util.Scanner;
 
 public class MergeSort {
-	
+	/*
+	 * method to sort integers using merge sort
+	 */
 	public void compute() {
 		int arr[] = {12, 11, 13, 5, 6, 7};
 		 
@@ -89,9 +91,6 @@ public class MergeSort {
         }
     }
  
-	
-	
-	
 	 /* A utility function to print array of size n */
     static void printArray(int arr[])
     {

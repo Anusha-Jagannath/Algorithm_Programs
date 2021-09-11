@@ -12,8 +12,10 @@ public class Main {
 //		anagram.checkAnagram();
 //		Prime prime = new Prime();
 //		prime.findPrime();
-		InsertionSort insertionsort = new InsertionSort();
-		insertionsort.sort();
+//		InsertionSort insertionsort = new InsertionSort();
+//		insertionsort.sort();
+		BinarySearch binarysearch = new BinarySearch();
+		binarysearch.search();
 	}
 
 }

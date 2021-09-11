@@ -2,6 +2,9 @@ package com.algorithm;
 
 public class Anagram {
 	
+	/*
+	 * method to check if two strings are anagram or not
+	 */
 	public void checkAnagram() {
 		String s1 = "silent";
 		String s2 = "listen";

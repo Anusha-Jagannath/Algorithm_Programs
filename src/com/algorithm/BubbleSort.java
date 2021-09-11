@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
+	/*
+	 * method to sort integers using bubble sort
+	 */
 	public void sortUsingBubbleSort() {
 		int noOfElements;
 		System.out.println("Enter no of elements");
@@ -28,5 +31,4 @@ public class BubbleSort {
 			System.out.print(array[i]+" ");
 		}
 	}
-
 }
