@@ -14,8 +14,12 @@ public class Main {
 //		prime.findPrime();
 //		InsertionSort insertionsort = new InsertionSort();
 //		insertionsort.sort();
-		BinarySearch binarysearch = new BinarySearch();
-		binarysearch.search();
+//		BinarySearch binarysearch = new BinarySearch();
+//		binarysearch.search();
+		
+		StringPermutation permutation = new StringPermutation();
+		permutation.findPermutationIterative("abc");
+		
 	}
 
 }
