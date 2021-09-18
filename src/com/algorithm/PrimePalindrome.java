@@ -5,7 +5,7 @@ public class PrimePalindrome {
 	/**
 	 * check if number is prime or not
 	 */
-	public static void check() {
+	public void check() {
 		for (int i = 2; i <= 1000; i++) {
 			boolean flag = true;
 			for (int j = 2; j <= i / 2; j++) {
@@ -25,7 +25,7 @@ public class PrimePalindrome {
 	 * 
 	 * @param i
 	 */
-	private static void palindrome(int i) {
+	private  void palindrome(int i) {
 		int rem, num, reverseNum = 0;
 		num = i;
 		while (i != 0) {
