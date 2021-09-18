@@ -1,5 +1,6 @@
 package com.algorithm;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 /*
@@ -7,7 +8,7 @@ import java.util.Scanner;
  */
 public class RegexMain {
 
-	public static void main(String[] args){
+	public static void main(String[] args) throws IOException{
 
 		UserDetails user = new UserDetails();
 		ReplaceRegex replace = new ReplaceRegex();
