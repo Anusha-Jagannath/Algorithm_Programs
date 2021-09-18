@@ -2,13 +2,17 @@ package com.algorithm;
 
 import java.util.Scanner;
 
+/*
+ * StringPermutation class is used to find permutation of string using both iterative and recursive method
+ * output from both the methods are same however order is different 
+ */
 public class StringPermutation {
 
 	/*
 	 * method to print permutation of strings using iterative method
 	 */
 	public static void findPermutationIterative(String string) {
-		
+
 		int length = string.length();
 		int f = factorial(length);
 		for (int i = 0; i < f; i++) {
